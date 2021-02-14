@@ -6,9 +6,9 @@ Use machine learning in JavaScript to detect eye movements and build eye-tracker
 
 Video Tutorial : [Youtube Link](https://www.youtube.com/watch?v=61Sy2Gj9DK4&feature=youtu.be&ab_channel=Tejav/)
 
-Visit [https://ingress-eyetracker-keyboard.netlify.app/](https://ingress-eyetracker-keyboard.netlify.app/) _(Works well on mobile too!!)_ 😃
+Visit [https://ingress-eyetracker-keyboard.netlify.app/](https://ingress-eyetracker-keyboard.netlify.app/) 
 
-![](Tutorial.mp4)
+![](tutorial.gif)
 
 Uses Tensorflow.js's [face landmark detection model](https://www.npmjs.com/package/@tensorflow-models/face-landmarks-detection).
 
