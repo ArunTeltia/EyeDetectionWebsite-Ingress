@@ -1,11 +1,6 @@
 body {
   margin: 0;
-  background: rgb(204, 204, 204);
-  background: radial-gradient(
-    circle,
-    rgb(100, 168, 11, 1) 0%,
-    rgba(100, 198, 15, 1) 100%
-  );
+  background: #2c6361;
   font-family: "Roboto", sans-serif;
 }
 
