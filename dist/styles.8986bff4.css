@@ -1,20 +1,16 @@
 body {
   margin: 0;
-  background: rgb(204, 204, 204);
-  background: radial-gradient(
-    circle,
-    rgb(100, 168, 11, 1) 0%,
-    rgba(100, 198, 15, 1) 100%
-  );
+  background: #2c6361;
   font-family: "Roboto", sans-serif;
 }
 
 /* mobile-first styles */
-h1 {
+h1,
+p {
   width: 85%;
   margin: 0.5em auto;
   padding: 0;
-  color: rgb(255, 255, 255);
+  color: white;
   font-weight: 400;
   text-align: center;
 }
@@ -68,7 +64,12 @@ main {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
 }
-
+.key_board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
 .info {
   text-align: center;
 }
@@ -95,6 +96,7 @@ main {
 .keyboard {
   background-color: rgb(30, 42, 80);
   border-radius: 5px;
+  width: 700px;
   box-shadow: 0 5px 10px 5px rgb(40, 42, 80);
   border: 3px solid rgb(105, 223, 242);
 }
